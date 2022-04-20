@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="description"content="New Announcements">
+    <meta name="keywords" content="college Announcements,news,events">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Engineering.css">
+	<title>Department of Computer Science Engineering</title>
+	</head>
+	<body>
+	<header>
+	<div class="w3-content imageContainer">
+    <img class="mySlides imageHolder" src="cs1.jpeg" style="width:100%;height: 600px;">
+  <img class="mySlides imageHolder" src="cs2.jpg" style="width:100%;height: 600px;">
+  <img class="mySlides imageHolder" src="cs3.jpg" style="width:100%;max-height:600px;">
+  <img class="mySlides imageHolder" src="cs4.jpg" style="width:100%;max-height:600px;">
+  <div>
+  <h3 class="caption BL" >Department of Computer Science Engineering</h3>
+  </div>
+</div>
+<div class="back">
+  <div class="front1"><p class="content">List of Current Faculty</p>
+     <p class="row">1. Dr. Dinesh Goyal<br>2. Dr. Praveen Gupta<br>3. Dr. Keshav Krishna Agrawal<br>4. Dr. Rekha Jain<br>5. Dr. Sanjay Bhargava<br>6. Dr. Megha Gupta<br>7. Dr. Amit Kumar Gupta <br>8. Dr. Puneet Mathur<br>9. Dr. Ajay Maurya<br>10. Dr. Anil Kumar<br>11. Dr. Rakhi Mutha<br>12. Dr. Shalini Rajawat<br>14. Mr. Deepak Moud<br>15. Mr. Sandeep Tuli<br>16. Mrs. Shruti Bijawat<br>17. Mr. Manish Bhardwaj<br>18. Ms. Pooja Sharma<br>19. Mr. Atrakesh Pandey<br>20. Mr. Ashu Sharma<br>21. Ms. Swati Srivastava<br>22. Mrs. Mamta Sakpal<br>23. Ms. Shikha Gautam<br>24. Ms. Archika Jain<br>25. Mr. Sunil Kr.Agarwal<br>26. Mr. Abhishek Dadich<br>27. Ms. Alka Rani</p>
+  </div>
+  <div class="front2"><p class="content">About</p>
+    <p class="row">The department of Computer Engineering offers B.Tech degree course with an approved intake of 180 students per year. In the present scenario of digitization, and online applications, computer technology has become a need for each person. To achieve programme educational objectives (PEOs), department follows the outcome-based learning approach. Department makes the student industry ready with all practical experience by introducing new technology Machine learning, Data Science, SalesForce.</p>
+    <h4 class="innercontent">vision</h4>
+    <p class="row">To create an environment in which new ideas, research and technology develop and the technocrats and innovators of tomorrow become competent to face the global challenges.
+    </p>
+    <h4 class="innercontent">Mission</h4>
+    <p class="row">1. To develop competent professional with innovative mindset, problem solving, design and implementation skills through excellent education.<br>
+    2. To provide platform so that undergraduates can expertise as a computer professional, entrepreneurs or as a manager while fulfilling their ethical and social responsibilities in a globally competitive environment.<br>
+    3. To contribute significantly to the research and discovery of new arenas of methods and knowledge in the field of computer engineering.<br></p>
+  </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	</header>
+	</body>
+	</html>

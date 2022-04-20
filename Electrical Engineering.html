@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="description"content="New Announcements">
+    <meta name="keywords" content="college Announcements,news,events">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Engineering.css">
+	<title>Department of Electrical Engineering</title>
+	</head>
+	<body>
+	<header>
+	<div class="w3-content imageContainer">
+  <img class="mySlides" src="el1.jpeg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="el2.jpg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="el3.jpg" style="width:100%;max-height:600px;">
+  <img class="mySlides" src="el4.jpeg" style="width:100%;max-height:600px;">
+  <div>
+  <h3 class="caption BL" >Department of Electrical Engineering</h3>
+  </div>
+</div>
+</div>
+<div class="back">
+  <div class="front1"><p class="content">List of Current Faculty</p>
+    <p class="row">1. Dr. Rakesh Kumar Gupta<br>2. Mr. Pulkit Singh<br>3. Ms. Shuchi Shukla<br>4. Mr. Vishnu Prakash Sharma<br>5. Mr. Satyaveer Singh<br>6. Mr. Surendra Sharma<br>7. Ms. dipti Joshi<br>8. Mr. Gaurav Jain<br>9. Dr. Ranu Sharma</p>
+     </div>
+  <div class="front2"><p class="content">About</p>
+   <p class="row"> The Department of Electrical Engineering is started in year 2007 with an intake 60 students. The Department of Electrical Engineering is a blend of teaching and research activities pertaining to Electrical Engineering prospective. At present the Department offers B. Tech. degree in Electrical Engineering as per Rajasthan Technical University prospective. The diversity is reflected in the breadth of theoretical and laboratory courses that are on offer and the research activities of the faculty members. The Department firmly believes in imparting a strong hands-on flavor to the courses that a student takes, and therefore places emphasis on the laboratory component, internships and projects. The Department has a healthy mixture of young and experienced faculty members, all of whom display high levels of enthusiasm and dedication. Apart from teaching and research, the faculties are actively involved in organizing technical workshops, camps and visits at the Institute to create an environment conducive to experiential learning. The student community in the Electrical Engineering department consists of undergraduate students. Every year many of our B. Tech. students carry out summer internships at reputed academic institutes and industries. Approximately 10% of these internships are at foreign universities. The Department is very ably supported by qualified staff that helps in the smooth functioning of laboratories and other administrative activities.</p>
+    <h4 class="innercontent">vision</h4>
+    <p class="row">To create an environment in which new ideas, research and technology develop and the technocrats and innovators of tomorrow become competent to face the global challenges.
+    </p>
+    <h4 class="innercontent">Mission</h4>
+    <p class="row">1. To develop competent professional with innovative mindset, problem solving, design and implementation skills through excellent education.<br>
+    2. To provide platform so that undergraduates can expertise as a computer professional, entrepreneurs or as a manager while fulfilling their ethical and social responsibilities in a globally competitive environment.<br>
+    3. To contribute significantly to the research and discovery of new arenas of methods and knowledge in the field of computer engineering.<br></p>
+  </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	</header>
+	</body>
+	</html>

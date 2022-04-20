@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="description"content="New Announcements">
+    <meta name="keywords" content="college Announcements,news,events">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Engineering.css">
+	<title>Department of Electronics and Communication Engineering</title>
+	</head>
+	<body>
+	<header>
+	<div class="w3-content imageContainer">
+  <img class="mySlides" src="ec1.jpeg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="ec2.jpg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="ec3.jpeg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="ec4.jpeg" style="width:100%;height: 600px;">
+  <!--<img class="mySlides" src="ec2.jpg" style="width:100%;max-height:600px;">-->
+  <div>
+  <h3 class="caption BL" >Department of Electronics and Communication Engineering</h3>
+  </div>
+</div>
+</div>
+<div class="back">
+  <div class="front1"><p class="content">List of Current Faculty</p>
+   <p class="row">1. Dr. Bhunesh Vyas<br>2. Ms. Manish Singal<br>3. Dr. Neha Mathur<br>4. Priyanka Yadav<br>5. Ms. Alka Yadav<br>6. Mr. Ankur Saharia<br>8. Mr. Ashok Kumar<br>9. Mr. Kalu Prajapat<br>10. Dr. Medha Gupta<br>11. Mr. Mohit Bajpai<br>12. Ms. Neelam Jangir<br>13. Ms. Nikita Gautam<br>14. Mr. Rahul Gupta<br>15. Ms. Rajni Sharma<br>16. Mr. Simranjeet Singh Sudan<br>17. Mr. Swapnil Jain<br>18. Ms. Timsy Kakkar</p> 
+  </div>
+  <div class="front2"><p class="content">About Us</p>
+   <p class="row"> The development in the field of electronics and communication engineering is fundamental for the recent trends in the fields of Information Technology. Keeping this in mind and having excellence as our motto, the department of Electronics and communication engineering, with the able assistance of qualified and experienced faculty, imparts efficient training to the students. The department is equipped with sophisticated, modern, well-equipped Laboratories with adequate facilities. Keeping up with the pace of technology, our students are given the needed exposure with the emerging trends in the industry. The dedication of our faculty and the keen interest exhibited by our students has made it possible to achieve good results with University Ranks. The First year Core Curriculum begins with a common knowledge base and customizes Students by grounding in basic Engineering Foundation and in Critical Hands-on Skills in Engineering Practices. The Course has access to enhance the Learning, Student Perspective and Experience to develop Specialization in areas of 'Electronics and Communication Engineering'. Class room learning is complemented by practicals in Hi-Tech Labs, Projects and Hands on Experiences, so as to foster Knowledge in 'Engineering and Technology'. These laboratories provide platform for learning not only theory but also practical aspects of electronics and communication engineering.</p>
+    <h4 class="innercontent">vision</h4>
+    <p class="row">To create an environment in which new ideas, research and technology develop and the technocrats and innovators of tomorrow become competent to face the global challenges.
+    </p>
+    <h4 class="innercontent">Mission</h4>
+    <p class="row">1. To develop competent professional with innovative mindset, problem solving, design and implementation skills through excellent education.<br>
+    2. To provide platform so that undergraduates can expertise as a computer professional, entrepreneurs or as a manager while fulfilling their ethical and social responsibilities in a globally competitive environment.<br>
+    3. To contribute significantly to the research and discovery of new arenas of methods and knowledge in the field of computer engineering.<br></p>
+  </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	</header>
+	</body>
+	</html>

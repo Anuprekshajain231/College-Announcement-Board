@@ -1,0 +1,57 @@
+<!Doctype html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="description"content="New Announcements">
+    <meta name="keywords" content="college Announcements,news,events">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="Engineering.css">
+	<title>Department of Civil Engineering</title>
+	</head>
+	<body>
+	<header>
+	<div class="w3-content imageContainer">
+  <img class="mySlides" src="civil1.jpeg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="civil2.jpg" style="width:100%;height: 600px;">
+  <img class="mySlides" src="civil3.jpg" style="width:100%;max-height:600px;">
+  <img class="mySlides" src="civil4.jpeg" style="width:100%;max-height:600px;">
+  <div>
+  <h3 class="caption BL" >Department of Civil Engineering</h3>
+  </div>
+</div>
+</div>
+<div class="back">
+  <div class="front1"><p class="content">Information Of Faculty</p>
+     <p class="row">1. Dr. Pran Nath Dadich<br>2. Dr. Dipti Mathur<br>3. Dr. Pooja Gupta<br>4. Dr. Divya Prakash<br>5. Dr. Manoj Kumar Gattani<br>6. Ankush Kumar Jain<br>7. Mahendra Kuamr Singar<br>8. Laxmi Kant Saini<br>9. Narendra Kumar Bhadhana<br>10. Shivanshi<br>11. Sushindra Kumar Gupta<br>12. Rituraj Singh Rathore<br>13. Mr. Rahul Khandelwal<br>14. Jeetendra Singh Khichad<br>15. Vikas Sharma<br>16. Shamal Burman<br>17. Ayush Goyal<br>17. Mukul Nama</p>
+  </div>
+  <div class="front2"><p class="content">Home</p>
+    <p class="row">The Department of Civil Engineering has an excellent and rich history and an outstanding record of contributions to the profession and community. The department is well recognized for excellence in facilities and teaching. Department offers B.Tech. programs in the area of Civil Engineering. The aim of these programs is to enable students to acquire specialized knowledge related to various technologies in Civil Engineering, as well as to enrich the student's personal, social and cognitive development to meet challenges of today and tomorrow.</p>
+    <h4 class="innercontent">vision</h4>
+    <p class="row">To create an environment in which new ideas, research and technology develop and the technocrats and innovators of tomorrow become competent to face the global challenges.
+    </p>
+    <h4 class="innercontent">Mission</h4>
+    <p class="row">1. To develop competent professional with innovative mindset, problem solving, design and implementation skills through excellent education.<br>
+    2. To provide platform so that undergraduates can expertise as a computer professional, entrepreneurs or as a manager while fulfilling their ethical and social responsibilities in a globally competitive environment.<br>
+    3. To contribute significantly to the research and discovery of new arenas of methods and knowledge in the field of computer engineering.<br></p>
+  </div>
+</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	</header>
+	</body>
+	</html>
